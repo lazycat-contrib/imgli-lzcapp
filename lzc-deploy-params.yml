@@ -1,0 +1,12 @@
+params:
+  - id: public_base_url
+    type: string
+    name: "Public Base URL"
+    description: "Optional exact HTTPS URL used by browsers, for example https://img.example.com. Leave empty to use the LazyCat-assigned application domain. Bind the custom domain in LazyCat before using it."
+    optional: true
+
+locales:
+  zh:
+    public_base_url:
+      name: "公开访问地址"
+      description: "可选；浏览器实际访问的完整 HTTPS 地址，例如 https://img.example.com。留空时自动使用懒猫分配的应用域名；填写前请先在懒猫中绑定该自定义域名。"
