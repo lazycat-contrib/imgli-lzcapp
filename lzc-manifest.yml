@@ -5,9 +5,9 @@ application:
   upstreams:
     - location: /
       backend: http://imgli:8686/
-
 services:
   imgli:
+    # upstream: ghcr.io/yixian-huang/imgli:v0.9.6
     image: ghcr.1ms.run/yixian-huang/imgli:v0.9.6
     environment:
       IMGLI_LISTEN: ":8686"
