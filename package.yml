@@ -1,12 +1,11 @@
 package: community.lazycat.app.imgli
-version: 0.9.6
+version: 0.9.9
 name: imgli
 description: "自托管图片托管服务：上传图片，一键获取分享链接。"
 author: "yixian-huang / lazycat-contrib"
 license: AGPL-3.0-only
 homepage: https://github.com/yixian-huang/imgli
 min_os_version: 1.5.0
-
 locales:
   zh:
     name: "imgli"
