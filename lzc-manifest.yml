@@ -7,8 +7,8 @@ application:
       backend: http://imgli:8686/
 services:
   imgli:
-    # upstream: ghcr.io/yixian-huang/imgli:v0.9.15
-    image: ghcr.1ms.run/yixian-huang/imgli:v0.9.15
+    # upstream: ghcr.io/yixian-huang/imgli:v0.9.16
+    image: ghcr.1ms.run/yixian-huang/imgli:v0.9.16
     environment:
       IMGLI_LISTEN: ":8686"
       IMGLI_BASE_URL: '{{if .U.public_base_url}}{{.U.public_base_url}}{{else}}https://{{.S.AppDomain}}{{end}}'
